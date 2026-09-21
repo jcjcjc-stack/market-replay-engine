@@ -1,0 +1,32 @@
+# Binaries
+/bin/
+/dist/
+
+# Go
+*.test
+*.out
+/vendor/
+
+# Node / web
+node_modules/
+/web/dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Data (recorded market data, run outputs)
+/data/
+/runs/
+
+# Env & local config
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
